@@ -38,6 +38,31 @@ To improve the detection speed and accuracy change the yoloweights and also yolo
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RIWsZAMhzEmrB0FEjO-iH4kIF0nZZ1Xw?usp=sharing)
 
+## Key Features
+
+- **Object Detection and Tracking:** Integration of YOLOv7 for object detection and StrongSORT for object tracking enables robust real-time tracking of objects.
+  
+- **Flexible Input Handling:** Supports various input sources including webcams, files, directories, and URLs, making it adaptable to different use cases and environments.
+  
+- **Customizable Parameters:** Users can adjust parameters such as confidence threshold, NMS threshold, and maximum detections per image, enabling fine-tuning for specific tracking scenarios.
+  
+- **Efficient Processing:** Optimizes processing by applying non-maximum suppression, motion compensation, and real-time inference, ensuring high-performance tracking capabilities.
+
+## Model Conversions with `track.py`
+
+To convert the YOLOv7 and StrongSORT models to different formats for use with the `track.py` script, follow these steps:
+
+1. **YOLOv7 Model Conversion:**
+   - Use the provided `export.py` script in the YOLOv7 repository to convert the YOLOv7 model to ONNX format.
+
+2. **StrongSORT Model Conversion:**
+   - Convert the StrongSORT model to the desired format compatible with the `track.py` script.
+
+For detailed instructions and examples, refer to the respective documentation of YOLOv7 and StrongSORT repositories.
+
+
+
+
 
 
 
