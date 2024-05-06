@@ -31,7 +31,7 @@ python track.py --source 0 --yolo-weights weights/yolov7.pt --strong-sort-weight
 
 To improve the detection speed and accuracy change the yoloweights and also yoloversions.
 
-##output videos
+##output image
 ![ip](https://github.com/Schavata/object-human_tracking_with_yolov7-Strongsort/assets/168991292/c5c4d68d-c0fa-492a-a251-5bf60aa90e71)
 
 ## Google Colab Notebook
@@ -59,6 +59,51 @@ To convert the YOLOv7 and StrongSORT models to different formats for use with th
    - Convert the StrongSORT model to the desired format compatible with the `track.py` script.
 
 For detailed instructions and examples, refer to the respective documentation of YOLOv7 and StrongSORT repositories.
+
+### Output
+The code will generate tracked object results in the output directory.
+## Results
+
+### Tracking Video
+[![Tracking Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+Click the image to watch the tracking video.
+
+
+### Troubleshooting
+- If you encounter CUDA-related errors, ensure that CUDA and cuDNN are properly installed and configured.
+- Make sure to specify the correct paths to the pre-trained models and input data.
+
+### Example
+For example, to track objects in a video file `input.mp4`, run:python track.py --source input.mp4 --yolo-weights weights/yolov7.pt --strong-sort-weights weights/osnet_x0_25_msmt17.pt
+
+## Integrating `track.py` into Your Application
+
+1. **Setup Environment**:
+   - Ensure Python is installed.
+   - Install dependencies using `pip install -r requirements.txt`.
+
+2. **Download Pre-trained Models**:
+   - Obtain pre-trained YOLO and StrongSORT weights.
+   - Place weights in designated directories or specify paths in your app.
+
+3. **Input Data**:
+   - Decide input type: live video, recorded video, or image frames.
+
+4. **Processing**:
+   - Utilize `track.py` functions for object detection and tracking.
+
+5. **Display Results**:
+   - Visualize tracking outcomes, e.g., bounding boxes, object IDs.
+
+6. **User Interface** (Optional):
+   - Consider adding a GUI using libraries like Tkinter or PyQt.
+
+7. **Testing and Deployment**:
+   - Thoroughly test your app before deployment or distribution.
+
+
+
 
 
 
