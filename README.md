@@ -34,5 +34,10 @@ To improve the detection speed and accuracy change the yoloweights and also yolo
 ##output videos
 ![ip](https://github.com/Schavata/object-human_tracking_with_yolov7-Strongsort/assets/168991292/c5c4d68d-c0fa-492a-a251-5bf60aa90e71)
 
+## Google Colab Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RIWsZAMhzEmrB0FEjO-iH4kIF0nZZ1Xw?usp=sharing)
+
+
 
 
