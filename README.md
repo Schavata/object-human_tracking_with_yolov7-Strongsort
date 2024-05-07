@@ -1,6 +1,10 @@
 # Object and Human Tracking using YoloV7 and StrongSort
 The project implements object tracking using YOLOv7 for detection and StrongSORT for tracking. It processes input from various sources like webcam, files, directories, or URLs. The system performs real-time inference, applies non-maximum suppression, and leverages motion compensation. It offers flexibility with adjustable thresholds and options for saving results.
 
+
+https://github.com/Schavata/objectandhuman_tracking_with_yolov7_Strongsort/assets/168991292/a5a9dfce-2ba6-4f06-9cd6-ef0db01246b3
+
+
 ## Deployment
 
 To deploy this project we need to clone this repository
@@ -62,12 +66,6 @@ For detailed instructions and examples, refer to the respective documentation of
 
 ### Output
 The code will generate tracked object results in the output directory.
-## Results
-
-### Tracking Video
-[![Tracking Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-Click the image to watch the tracking video.
 
 
 ### Troubleshooting
