@@ -16,8 +16,16 @@ To run the code perfectly we need to install requirements.txt file
 ```bash
 pip install -r requirements.txt
 ```
+since project completely depends on YOLOV7 so it needs to be added to respective folder using following command
+```bash
+git clone https://github.com/WongKinYiu/yolov7.git
+```
+when you try run this on your pc you need add optimised weights in weighnts folder for this follow the link below , scroll down and download the weights 
+[Link to YOLOv7 GitHub Repository](https://github.com/WongKinYiu/yolov7?tab=readme-ov-file)
 
 And also make your pc has python3.12.0 and GPU since tracker need high computation
+
+
 
 
 ## Instructions for Testing or to run the file
