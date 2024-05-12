@@ -48,7 +48,7 @@ To improve the detection speed and accuracy change the yoloweights and also yolo
 
 ## Google Colab Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RIWsZAMhzEmrB0FEjO-iH4kIF0nZZ1Xw?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10Y1vauVG0bmBpsmqean2ZbZCzoiaGj0T?usp=sharing)
 
 ## Key Features
 
