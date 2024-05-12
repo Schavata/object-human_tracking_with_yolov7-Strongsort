@@ -3,27 +3,48 @@ The project implements object tracking using YOLOv7 for detection and StrongSORT
 
 
 https://github.com/Schavata/objectandhuman_tracking_with_yolov7_Strongsort/assets/168991292/a5a9dfce-2ba6-4f06-9cd6-ef0db01246b3
+## Requirements
+
+To run the following project make sure that following tools are installed
+ 
+  
+  python 3.12.2
+  
+  git
+ 
+  GPU
+  
+  Pytorch
+  
+  Cmake
 
 
 ## Deployment
 
-step1 :(installing setup to local machine) To deploy this project we need to clone this repository
+#### step1 :Create or select Any folder and copy the path.
 
+#### step2. Open command prompt 
+```bash
+cd path of the folder
+```
+#### step 3
+#### after changing the directory user below code to clone the repository
 ```bash
 git clone https://github.com/Schavata/object-human_tracking_with_yolov7-Strongsort.git
 ```
-Step 2 :(reuired imports which are essential for project) To run the code perfectly we need to install requirements.txt file
+#### Step 4 :After succesful cloning we need to install related dependencies 
+      open command prompt in respective folder and following command
 ```bash
 pip install -r requirements.txt
 ```
-step 3 :(crucial step)since project completely depends on YOLOV7 so it needs to be added to respective folder using following command
+#### step 5 : Open command promt in yolov7 folder and run the following command
 ```bash
 git clone https://github.com/WongKinYiu/yolov7.git
 ```
-when you try run this on your pc you need add optimised weights in weighnts folder for this follow the link below , scroll down and download the weights 
+#### step 6:when you try run this on your pc you need add optimised weights in weighnts folder for this follow the link below , scroll down and download the weights 
 [Link to YOLOv7 GitHub Repository](https://github.com/WongKinYiu/yolov7?tab=readme-ov-file)
 
-And also make your pc has python3.12.0 and GPU since tracker need high computation
+
 
 
 
