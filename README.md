@@ -8,15 +8,15 @@ https://github.com/Schavata/objectandhuman_tracking_with_yolov7_Strongsort/asset
 To run the following project make sure that following tools are installed
  
   
-  python 3.12.2
+  ### python 3.12.2
   
-  git
+  ### git
  
-  GPU
+  ### GPU
   
-  Pytorch
+  ### Pytorch
   
-  Cmake
+  ### Cmake
 
 
 ## Deployment
@@ -71,6 +71,16 @@ To improve the detection speed and accuracy change the yoloweights and also yolo
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10Y1vauVG0bmBpsmqean2ZbZCzoiaGj0T?usp=sharing)
 
+### intructions for collab
+   ### Step 1 Change the Run time to Gpu
+
+   ### step 2 Run the all the code blocks
+
+   ### Step 3 To track any recorded video in collab upload the video to collab and copy the path of the uploaded video
+   
+```bash
+   !python track.py --yolo-weights /content/Yolov7_StrongSORT_OSNet/yolov7.pt --strong-sort-weights osnet_x0_25_msmt17.pt --source path of the video --save-vid --conf-thres 0.15 --device 0
+```
 ## Key Features
 
 - **Object Detection and Tracking:** Integration of YOLOv7 for object detection and StrongSORT for object tracking enables robust real-time tracking of objects.
