@@ -7,16 +7,16 @@ https://github.com/Schavata/objectandhuman_tracking_with_yolov7_Strongsort/asset
 
 ## Deployment
 
-To deploy this project we need to clone this repository
+step1 :(installing setup to local machine) To deploy this project we need to clone this repository
 
 ```bash
 git clone https://github.com/Schavata/object-human_tracking_with_yolov7-Strongsort.git
 ```
-To run the code perfectly we need to install requirements.txt file
+Step 2 :(reuired imports which are essential for project) To run the code perfectly we need to install requirements.txt file
 ```bash
 pip install -r requirements.txt
 ```
-since project completely depends on YOLOV7 so it needs to be added to respective folder using following command
+step 3 :(crucial step)since project completely depends on YOLOV7 so it needs to be added to respective folder using following command
 ```bash
 git clone https://github.com/WongKinYiu/yolov7.git
 ```
