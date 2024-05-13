@@ -28,12 +28,12 @@ To run the following project make sure that following tools are installed
 cd path of the folder
 ```
 #### step 3
-#### after changing the directory user below code to clone the repository
+#### after changing the directory use below code to clone the repository
 ```bash
 git clone https://github.com/Schavata/object-human_tracking_with_yolov7-Strongsort.git
 ```
 #### Step 4 :After succesful cloning we need to install related dependencies 
-      open command prompt in respective folder and following command
+      open command prompt in respective folder and use the  following command
 ```bash
 pip install -r requirements.txt
 ```
